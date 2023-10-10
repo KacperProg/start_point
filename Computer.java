@@ -14,7 +14,7 @@ public class Computer {
         return this.storageSpace;
     }
 
-    void setStorageSpace(){
-        this.storageSpace += 100;
+    public void setStorageSpace(){
+        this.storageSpace += 10;
     }
 }
